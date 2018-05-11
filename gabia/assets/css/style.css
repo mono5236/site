@@ -6,7 +6,7 @@
 .le10 #wrap {background-color: #555;}
 .le11 #wrap {background-color: #999;}
 #header {height: 89px; border-bottom: 1px solid #efefef;}
-#banner {height: 550px; background: url(../img/banner-bg2.jpg) no-repeat center top;}
+#banner {height: 550px; /* background: url(../img/banner-bg2.jpg) no-repeat center top;*/}
 #sbanner {border-top: 1px solid #efefef;}
 #select {background-color: #0c69ac;  height: 498px;}
 #info {}
@@ -46,6 +46,9 @@
 .banner em {font-size: 18px; color: #f66b05; display: block;}
 .banner .view {font-size: 16px; margin-top: 50px; border: 1px solid #333; background-color: #fff; padding: 12px 42px; display: inline-block; transition: all 0.3s ease}
 .banner .view:hover {background-color: #000; color: #fff;}
+.banner-img1 {background: url(../img/banner-bg2.jpg) no-repeat center top;}
+.banner-img2 {background: url(../img/banner-bg2.jpg) no-repeat center top;}
+.banner-img3 {background: url(../img/banner-bg2.jpg) no-repeat center top;}
 
 /* sbanner */
 .sbanner {overflow: hidden; padding: 70px 0;}
@@ -282,5 +285,5 @@
 .answer div h3 {font-size: 32px; display: inline;}
 .answer div span {font-size: 16px; float: right; margin: 11px 11px 0 0;}
 .answer .server div {padding: 22px; border-bottom: 1px solid #ccc;}
-.answer .server > a {font-size: 16px; padding-left: 50px; display: block; border-bottom: 1px solid #ccc; padding: 20px 0;}
-.answer {}
+.answer .server > a {font-size: 16px; display: block; border-bottom: 1px solid #ccc; padding: 20px 0 20px 20px;}
+.answer .server > a:before {content:'Q'; text-align: center; display: inline-block; width: 24px; background-color: #2886ca; border-radius: 50%; margin-right: 30px; color: #fff; box-sizing: border-box;}
