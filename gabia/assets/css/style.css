@@ -165,9 +165,9 @@
 #sub-banner.webhosting-bg {background: url(../img/webhosting-bg1.png) repeat-x center top;}
 #product-table {}
 #notice {}
-#together {background-color: #1d7abd; }
+#together {background-color: #0c69ac; }
 #hosting {background: url(../img/hosting-bg.png); background-size: cover;}
-#service {background-color: #1d7abd;}
+#service {background-color: #0c69ac;}
 
 /* sub-banner */
 .sub-banner {padding: 80px 0; overflow: hidden;}
@@ -190,7 +190,7 @@
 .table-title1 li {display: inline;}
 .table-title1 li a {font-size: 18px; color: #999; padding: 0 10px;}
 .table-title1 li.active a {color: #333;}
-.table-title1 .detail {font-size: 18px;  color: #1d7abd; position: absolute; top: 0; right: 0;}
+.table-title1 .detail {font-size: 18px;  color: #0c69ac; position: absolute; top: 0; right: 0;}
 
 /* table-style */
 .table-style1 table {border-top: 2px solid #6f6f6f; border-bottom: 1px solid #9a9a9a;}
@@ -204,7 +204,7 @@
 .table-style1 td.spec {text-align: left; padding: 0 80px 0 20px;}
 .table-style1 td.prise {font-size: 24px; border-right: 0;}
 .table-style1 td.prise > p {font-size: 24px; display: inline-block; height: 46px; line-height: 46px; padding-bottom: 5px;}
-.table-style1 td .view {color: #fff; font-size: 15px; background-color: #1d7abd; padding: 10px 40px; display: inline-block; transition: all 0.3s ease}
+.table-style1 td .view {color: #fff; font-size: 15px; background-color: #0c69ac; padding: 10px 40px; display: inline-block; transition: all 0.3s ease}
 .table-style1 td .view:hover {background-color: #34a0ef;}
 .table-style1 td em {font-size: 16px;}
 .table-style1 a {display: block; text-align: center; font-size: 16px; padding-top: 30px;}
